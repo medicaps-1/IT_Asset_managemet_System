@@ -41,46 +41,6 @@ A modern, web-based IT Asset Management System designed to help organizations ef
 - **UI Framework**: Material-UI
 - **State Management**: Redux Toolkit
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v18 or higher)
-- Python 3.9+
-- PostgreSQL 13+
-- npm or yarn
-
-### Installation
-
-1. Clone the repository
-2. Install backend dependencies:
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   ```
-3. Install frontend dependencies:
-   ```bash
-   cd frontend
-   npm install
-   ```
-4. Set up environment variables:
-   - Create `.env` file in backend directory
-   - Configure database connection
-   - Set up JWT secret key
-   - Configure frontend environment variables
-
-### Running the Application
-
-1. Start the backend server:
-   ```bash
-   cd backend
-   uvicorn app.main:app --reload
-   ```
-2. Start the frontend development server:
-   ```bash
-   cd frontend
-   npm run dev
-   ```
 
 ## Project Structure
 
